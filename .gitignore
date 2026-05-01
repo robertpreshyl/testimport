@@ -1,0 +1,46 @@
+# Backups & dumps
+*.sql
+*.dump
+*.backup
+*.sql.gz
+*.sql.bz2
+configs/backup/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+
+# Keys & certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.truststore
+id_rsa*
+id_ed25519*
+id_ecdsa*
+acme.json
+
+# Node modules
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
